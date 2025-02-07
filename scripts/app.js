@@ -15,29 +15,31 @@ let b = parseFloat(prompt('Enter Number for b'));
 // Step 2: Use equality and inequality operators to compare the variables.
 // Example: let isEqual;
 // Use '==' to compare 'a' and 'b' for equality.
-let isEqual = (a == b);
+let isEqual = a == b;
 
 // Example: let isStrictEqual;
 
 // Use '===' to compare 'a' and 'b' for strict equality.
-
+let isStrictEqual = a===b;
 // Example: let isNotEqual;
-let isNotEqual = (a != b); 
+let isNotEqual = a != b; 
 // Use '!=' to compare 'a' and 'b' for inequality.
 
 // Example: let isStrictNotEqual;
 // Use '!==' to compare 'a' and 'b' for strict inequality.
-
+let isStrictNotEqual = a!==b;
 // Step 3: Perform basic mathematical operations.
 // Example: let add;
 // Add 'a' and 'b'.
 let add = a+b;
 // Example: let sub;
-let sub = a-b;
+
 // Subtract 'b' from 'a'.
-let mul = a*b;
+let sub = a-b;
+
 
 // Example: let multiply;
+let multiply = a*b;
 let power = a**b;
 // Multiply 'a' and 'b'.
 
@@ -47,7 +49,7 @@ let power = a**b;
 
 
 // Example: let division;
-let div = a/b;
+let division = a/b;
 // Divide 'a' by 'b'.
 
 // Step 4: Use comparison operators to compare the variables.
