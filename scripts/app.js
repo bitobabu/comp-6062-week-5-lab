@@ -73,7 +73,7 @@ let andResult = a > 5 && b > 5;
 // Step 5: Apply binary logic with short-circuit evaluation.
 // Example: let andResult;
 // Use '&&' to check if both 'a' and 'b' are greater than 5.
-let orResultResult = a > 5 || b > 5;
+let orResult = a > 5 || b > 5;
 // Example: let orResult;
 // Use '||' to check if either 'a' or 'b' is greater than 5.
 
